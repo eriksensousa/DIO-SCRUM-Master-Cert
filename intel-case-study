@@ -1,0 +1,65 @@
+Como a aplicação do Scrum ajudou a Intel em seu desenvolvimento de engenharia?
+A gigante dos microprocessadores Intel estava usando um programa de teste executado em equipamentos de teste automatizados (ATE). Ele tem um sistema operacional proprietário e linguagens de interface que impedem a Intel de usar soluções de validação de software padrão do setor. Em essência, a Intel estava trabalhando em um ambiente de linguagem proprietária, sem estrutura de teste de unidade pronta para uso e sem recursos de teste off-line. Além disso, a Intel tem um longo histórico de requisitos: desperdício, comprometimento excessivo, cronogramas perdidos, semanas de trabalho cansativas, moral baixa e altas taxas de rotatividade. Como eles usaram o Scrum para superar essas formas a base desta história
+
+Na Intel, o grupo de Engenharia de Desenvolvimento de Produto (PDE) existe para fornecer o material de teste para dar suporte à triagem e classificação de dispositivos econômicos.
+
+A cultura cascata da Intel levou a silos funcionais e transferências regulares de produtos entre as equipes. Uma alta taxa de rotatividade resultou da sobrecarga do grupo PDE no final do ciclo de vida de um projeto.
+
+A Intel decidiu introduzir o Scrum no início do projeto e em fases.
+
+Fase 1: PREPARAÇÃO PARA O SILICONE
+Eles contrataram uma empresa externa para treinamento e treinamento em Scrum chamada Danube Technologies, liderada por Michael James e Dan Rawsthorne. Além disso, a Equipe de Ação do Processo (PAT) foi formada para monitorar o progresso. Inicialmente, seis equipes começaram a seguir o Scrum pelo livro.
+
+Nesta fase, o maior desafio foi dimensionar o trabalho entre as equipes scrum. Eles usaram a abordagem “aprender, experimentar, inspecionar e adaptar” e compartilharam as melhores práticas que funcionaram usando um wiki interno. Embora o framework Scrum tenha se tornado o meio padrão de gerenciamento de requisitos no final do primeiro ano, o PAT ainda lhe dava 50% de chance de sobreviver.
+
+As equipes da Intel estavam construindo apenas a infraestrutura para dar suporte à depuração e fabricação de silício. Não houve nenhuma força externa solicitando certos recursos durante o primeiro ano ou mais do projeto. Isso tornava o valor comercial uma métrica difícil de priorização. Portanto, os Product Owners e os Business Owners tentaram priorizar os recursos com uma combinação de valor comercial estimado e prioridade geral, principalmente como uma estratégia de gerenciamento de dependência. No final do primeiro ano, o Scrum se enraizou na organização e se tornou a estrutura padrão para planejar o trabalho e o gerenciamento de seu produto.
+
+Fase 2: SILÍCIO SOBREVIVENTE
+Durante esta fase, a equipe Scrum concentrou-se na depuração dos eventos Scrum e na manutenção dos artefatos Scrum. No entanto, uma equipe voltou aos velhos hábitos e outras mal se seguravam. Os Sprints de duas semanas se mostraram desafiadores, com algumas equipes reduzindo-os para apenas um dia. Apesar dessas dificuldades, o grupo conseguiu identificar equipes e tamanho, priorizando o valor do negócio, atualizações e refinando o backlog do produto. Durante várias semanas intensas de depuração e desenvolvimento, algumas equipes até contrataram desenvolvedores e proprietários de produtos para teste e aprovação. Eventualmente, o Scrum sobrevivente emergiu mais forte, expandindo seus sprints para duas semanas. Os sprints de duas semanas permanecem em vigor hoje.
+
+Fase 3: PREPARAÇÃO PARA FABRICAÇÃO
+Por meio do Scrum, eles conseguiram identificar o que estava retardando seu progresso. A transferência entre grupos funcionais foi uma dessas questões. O que eles realmente precisavam era de equipes multifuncionais para minimizar as transferências. Eles fizeram um teste piloto em uma das equipes. Como resultado dessa tarefa, eles aprenderam como minimizar as transferências. Isso apresentou uma grande oportunidade de influenciar a liderança da organização e fazer uma correção de curso que permitiria que o Scrum funcionasse melhor.
+
+Resultados:
+Definição Forte de Feito
+Sem uma linguagem de programação “real”, a Intel carecia de uma estrutura de teste de unidade ou regressão offline. No desenvolvimento de produtos microprocessados, o teste de unidade refere-se ao teste de unidades de silício. Esse desafio os levou a se concentrar na criação de histórias claras e na definição da satisfação do cliente por meio de critérios de aceitação (AC) bem escritos.
+
+Eles também implementaram um processo de verificação leve chamado “Pair Review”. Esta revisão foi uma colaboração entre desenvolvedores, POs ou partes interessadas. Para rastrear a eficácia da “Revisão em Par”, eles coletaram métricas simples: Adições, Salvamentos e Escapes.
+
+Acréscimos: AC adicional adicionado durante a revisão em pares que o desenvolvedor concordou em implementar no sprint atual.
+
+Salva: Bugs detectados e corrigidos no sprint atual
+
+Escapes: Bugs criados em sprints anteriores, mas encontrados no sprint atual. Escapes indicam uma necessidade de melhoria.
+
+Salva: mostrou que o processo de verificação estava funcionando.
+
+Ao contrário da verificação, a validação exigia que a história funcionasse corretamente no produto lançado e frequentemente envolvia a execução do dispositivo em equipamentos de teste. Uma história passou na “Definição de Concluído” somente quando todas as tarefas da lista foram verificadas e validadas.
+
+Sem Crédito Parcial
+Para prever com precisão a velocidade do próximo sprint, a equipe não considera as histórias que não atendem à definição de "pronto". Essa abordagem incentivou a equipe a priorizar os requisitos de verificação e validação em suas estimativas e garantir que cumpram seus compromissos. Se a equipe se comprometesse a entregar 100% “feito”, mas entregasse apenas 90%, isso seria considerado “não feito”.
+
+
+Sprints de nove dias
+A cada duas sextas-feiras, a equipe realiza reuniões de revisão, retrospectiva e planejamento durante nossos sprints de nove dias. Essa programação permite que a equipe tenha uma pausa nos sprints a cada dois fins de semana, levando a uma melhora na qualidade de vida e no moral. Nos fins de semana no meio de um sprint, os membros da equipe têm a opção de trabalhar, se necessário, para atingir seus objetivos. No entanto, após os primeiros seis meses, isso se tornou uma ocorrência rara, pois eles estabeleceram um ritmo consistente e sustentável.
+
+
+PO na equipe
+Para melhorar a comunicação entre os Product Owners e a equipe, a equipe inicialmente permitiu que os POs atuassem como membros ativos de cada equipe. No entanto, essa abordagem teve resultados mistos, pois alguns POs microgerenciavam as equipes, dificultando a comunicação honesta entre os membros da equipe. Isso resultou em equipes realizando reuniões secretas para abordar desafios organizacionais reais longe dos POs e gerentes funcionais. Esses problemas melhoraram com o tempo, mas prejudicaram a capacidade de auto-organização das equipes. Para evitar isso, eles proibiram a prática ao criar Scrums multifuncionais.
+
+
+Enormes atrasos
+A equipe enfrentou um desafio ao gerenciar o “backlog de todos os acessos”. Se alguém pudesse adicionar itens à lista de pendências de uma equipe a qualquer momento, isso poderia causar solicitações avassaladoras. Alguns Product Owners tentaram bloquear suas pendências, limitando a entrada de outros membros da equipe ou partes interessadas. Para resolver isso, nossa ferramenta Scrum separa histórias “novas” de histórias “aceitas”. O PO pode então revisar cada nova história, discuti-la com as partes interessadas e decompô-la de acordo.
+
+Além disso, a equipe introduziu um “congelador” para histórias que não seriam abordadas por alguns sprints. Isso permitiu que as partes interessadas vissem suas solicitações no freezer.
+
+
+As tarefas levam menos de um dia.
+Eles decidiram não seguir estimativas. Em vez disso, as histórias receberam um grau de “dificuldade” em pontos de história. Enquanto as tarefas eram simplesmente itens binários – “concluídas” ou “não concluídas”. Uma tarefa geralmente era definida para menos de um dia. Portanto, se alguém trabalhou em uma tarefa por mais de um dia, sua tarefa provavelmente foi prejudicada.
+
+
+Patrocínio Executivo
+O apoio da alta direção se mostrou essencial para o sucesso da transição tanto para as equipes quanto para os gestores. O gerente da organização forneceu um apoio crucial, oferecendo incentivos aos líderes que assumiram funções de equipe e reconhecendo suas contribuições com créditos de carreira. Além disso, foram criados desincentivos para quem prejudicasse o processo.
+
+Mudando Comportamentos
+A equipe aprendeu que, ao aplicar consistentemente os princípios do Scrum, eles melhoraram sua eficiência. Por meio da negociação contínua de escopo, priorização, requisitos claros, adesão estrita a prazos, monitoramento de métricas e esforço para a auto-organização da equipe, o Scrum permaneceu eficaz e próspero até hoje.
